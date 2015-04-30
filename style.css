@@ -1,0 +1,97 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+form {
+  width: 800px;
+  margin: 0 auto;
+  padding: 80px 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bg-image{
+  background: url(background.jpg)  no-repeat;
+  background-size: cover;
+  height: 100%;
+  opacity: .1;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+}
+
+hr {
+  border: 0;
+    height: 0;
+    border-top: 3px solid #cecece;
+    width: 150px;
+    margin-bottom: 40px;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 40px;
+  color: #666;
+}
+
+.text {
+  width: 48%;
+  display: inline-block;
+  background: rgba(210,210,210,.5);
+  border: 0;
+  padding: 25px;
+  line-height: 20px;
+}
+
+.text:nth-of-type(2) {
+  display: block;
+  float:right;
+}
+
+textarea {
+  margin: 20px 0;
+  padding: 20px;
+  width: 100%;
+  background: rgba(210,210,210,.5);
+  border: 0;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 30px;
+  background: rgba(137,209,167, 1);
+  border: 0;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+
+::-webkit-input-placeholder {
+   font-size: 20px;
+   font-weight: 100;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 20px;
+  font-weight: 100;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 20px;
+  font-weight: 100;
+}
+
+:-ms-input-placeholder {
+  font-size: 20px;
+  font-weight: 100;
+}
